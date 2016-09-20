@@ -7,9 +7,10 @@ public class Hello {
     
     int a = 20;
     int b = 50;
-    
+    int c = 15;
     System.out.println(a + b);
-
+    System.out.println(c);
+    
     int i = 1;
     int j = 0;
     int s = -1;
@@ -20,6 +21,8 @@ public class Hello {
       i = i + (j * s);
       j += 1;
     }
+    
+    System.out.println("Hello ");
   }
 
 }
